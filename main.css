@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+body {
+    height:465px;
+    background-image: url("https://afubesp.org.br/wp-content/uploads/2022/07/logo_ebac-960x640.png");
+    background-size: 5rem;
+
+}
+header{
+    padding: 16px;
+    margin-top: 25px;
+    background: white;
+    color: rgb(7, 1, 1);
+    text-align: center;
+}
+header img{
+    width: 10%;
+    height: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+section{
+    background: white;
+    border-radius:10px ;
+    padding:15px ;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+
+input {
+    background-color:#6b98c9 ;
+    font-size: 24px;
+}
+
+button {
+    transition-duration: 0.5;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+
+button:hover {
+    background-color: #99a2ca;
+    box-shadow: 0 12px 16px 0 rgb(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#container ul li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(194, 194, 240);
+    border-radius: 15px;
+    
+    color: black;
+    width: 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.feito{
+    text-decoration: line-through;
+}
